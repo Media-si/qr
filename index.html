@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scanează QR Code</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center min-h-screen p-4">
+    <div class="max-w-md w-full bg-white/90 backdrop-blur-md p-10 rounded-3xl shadow-2xl border border-white/20 text-center transition-all hover:scale-[1.02] duration-300">
+        <div class="flex justify-center mb-8">
+            <div class="p-4 bg-white rounded-2xl shadow-lg border border-gray-100 ring-4 ring-white/50">
+                <img 
+                    src="https://public-api.qr-code-generator.com/v1/create/extended?image_format=PNG&image_width=300&qr_code_text=https%3A%2F%2F999.md%2Fro%2Fprofile%2FAllSubsMD&foreground_color=%23000000&qr_code_pattern=rounded-2&qr_code_logo=no-logo&background_color=%23FFFFFF&frame_name=no-frame" 
+                    alt="QR Code" 
+                    class="w-[280px] h-[280px] md:w-[300px] md:h-[300px]"
+                >
+            </div>
+        </div>
+        <div class="space-y-4">
+            <h1 class="text-2xl font-bold text-gray-900 tracking-tight">Scanează și Descoperă</h1>
+            <p class="text-gray-600 text-lg font-medium leading-relaxed">
+                scanează pentru a afla mai multe despre 
+                <span class="flex flex-wrap justify-center gap-2 mt-4">
+                    <span class="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm font-bold shadow-sm border border-indigo-200">tiktok</span>
+                    <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-bold shadow-sm border border-green-200">spotify</span>
+                    <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-bold shadow-sm border border-blue-200">roblox</span>
+                    <span class="px-3 py-1 bg-slate-100 text-slate-700 rounded-full text-sm font-bold shadow-sm border border-slate-200">steam</span>
+                    <span class="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-bold shadow-sm border border-green-200">xbox</span>
+                    <span class="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm font-bold shadow-sm border border-red-200">netflix</span>
+                    <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-bold shadow-sm border border-blue-200">hulu</span>
+                    <span class="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-bold shadow-sm border border-blue-200">disney+</span>
+                    <span class="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-sm font-bold shadow-sm border border-orange-200">prime video</span>
+                </span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
